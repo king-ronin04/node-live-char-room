@@ -1,0 +1,118 @@
+ * { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+.bg{
+	background-color:rgb(242, 220, 224);
+}
+
+.main {
+	background: linear-gradient(to right, #5300e8, #e60073);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+	0%, 100% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+  }
+
+.main{
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	flex-direction: column;
+	height: 100vh;
+	overflow: scroll;
+	width: 50%;
+	
+}
+ 
+  #intro{
+ 	background-color:grey;
+ 	color: #FFFFFF;
+ 	height: 5%;	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ } 
+ #intro:hover{
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+ }
+
+
+ body { 
+ 	font: 20px;
+}
+
+ form { 
+ 	background: #000000; 
+ 	padding: 3px; 
+ 	position: fixed; 
+ 	bottom: 5px; 
+ 	width: 50%;
+	margin-left: 18px;
+	
+ }
+ 
+ form input { 
+ 	background-color: #e6ffe6;
+ 	border: 0; 
+ 	padding: 10px; 
+ 	width: 90%; 
+ 	margin-right: 0.5%; 
+	caret-color: red;
+ }
+ 
+ form button { 
+ 	width: 9%; 
+ 	background: black;
+ 	border: none; 
+ 	padding: 5px; 
+ 	font-size: 20px; 
+	color: white;
+	cursor: pointer;
+ }
+ button:hover{
+	color: black;
+	background-color: white;
+	border:2px solid red;
+	border-radius: 10px;
+ }
+ 
+ #messages { 
+	width: 50%;
+ 	margin: 0; 
+ 	padding: 0; 
+	
+ 	
+ }
+ 
+ #messages li { 
+ 	padding: 5px 10px; 
+	list-style: none;
+	text-transform: uppercase;
+	
+ }
+ 
+ #messages li:nth-child(odd) { 
+ 	background: #b3ffb3; 
+	color: black;
+	
+ }
+
+
+#list{
+	text-align: right;
+	color:white;
+	
+}
