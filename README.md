@@ -32,5 +32,4 @@ Implemented Socket.io on the client-side to establish a WebSocket connection wit
 Implemented message handling logic on the client-side to send and receive messages in real-time, and display messages in the chat room interface.
  
 ![image](https://user-images.githubusercontent.com/103017387/232328054-feb7b3bc-ecfd-423f-814a-da2c8670d3ff.png)
-![image](https://user-images.githubusercontent.com/103017387/232328065-f22a00e8-21fc-4645-a6d3-c0e527d1f356.png)
 ![image](https://user-images.githubusercontent.com/103017387/232328073-da258328-38cb-41ff-908f-d34769563a54.png)
